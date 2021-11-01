@@ -2,41 +2,192 @@
 <html>
   <head>
     <title>Code Pen Copy</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
     <!-- font-awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <!-- googlefont -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="l-flex l-container">
       <div class="l-sidebar sidebar">
         <!-- Write code for Sidebar-->
+        <div class="logo">
+          <h1>C<i class="fa fa-cube"></i>DE PEN</h1>
+        </div>
+        <div class="get-start">
+          <p>TRY OUR ONLINE EDITOR</p>
+          <a href="">Start Coding</a>
+        </div>
+        <div class="sidebar-menu-content">
+          <ul>
+            <li class="sidebar-menu">
+              <h2 class="sidebar-title">EXPLORE</h2>
+              <ul class="sidebar-list">
+                <li><a href="">Picks</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Topics</a></li>
+              </ul>
+            </li>
+            <li class="sidebar-menu">
+              <h2 class="sidebar-title">GROW</h2>
+              <ul class="sidebar-list">
+                <li><a href="">Jobs</a></li>
+                <li>
+                  <a href="">CodePen<span>PRO</span></a>
+                </li>
+                <li><a href="">Topics</a></li>
+              </ul>
+            </li>
+            <li class="sidebar-menu">
+              <h2 class="sidebar-title">EXPLORE</h2>
+              <ul class="sidebar-list">
+                <li><a href="">Picks</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Topics</a></li>
+              </ul>
+            </li>
+            <li class="sidebar-menu">
+              <a href="">Newsletter</a>
+            </li>
+            <li class="sidebar-menu">
+              <a href="">Blog</a>
+            </li>
+            <li class="sidebar-menu">
+              <a href="">Doc&Support</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <main class="l-main">
-      <header class="l-header">
-        <!-- Write code for Header-->
-      </header>
-      <div class="l-content">
-        <section class="l-section">
-          <div class="hero">
-             <!-- Write code for Hero-->
+        <header class="l-header">
+          <!-- Write code for Header-->
+          <div class="l-flex l-align-center search-form">
+            <i class="fa fa-search"></i>
+            <input class="search-form-input" type="text" placeholder="Search CodePen..." />
           </div>
-      </div>
-        </section>
+          <div class="l-flex l-align-center header-buttons">
+            <a class="button button-sign-up" href=""> Sign Up </a>
+            <a class="button button-log-in" href=""> Log In </a>
+          </div>
+        </header>
+        <div class="l-content">
+          <section class="l-section">
+            <div class="hero">
+              <!-- Write code for Hero-->
+              <div class="hero-content">
+                <div class="description">
+                  <div class="description-content">
+                    <div class="description-logo">
+                      <i class="fa fa-cube"></i>
+                    </div>
+                    <h1 class="description-title">
+                      The best place to build, test, and discover front-end
+                      code.
+                    </h1>
+                    <p class="description-description">
+                      CodePen is a social development environment for front-end
+                      designers and developers. Build and deploy a website, show
+                      off your work, build test cases to learn and debug, and
+                      find inspiration.
+                    </p>
+                    <div class="description-button">
+                      <a class="button button-sign-up" href=""
+                        >Sign Up for Free</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="demo">
+                  <div class="demo-content">
+                    <div class="code-box cord-box-html">
+                      <div class="code-title l-flex l-align-center">
+                        <div class="code-title-title l-flex l-align-center">
+                          <i class="fa fa-cog"></i>
+                          <h5 class="code-title-text">HTML</h5>
+                        </div>
+                        <i class="fa fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-content">
+                        <p>
+                          <span class="c-orange">&lt;div </span>
+                          <span class="c-yellow">class</span>=<span
+                            class="c-green"
+                            >"rect"</span
+                          ><span class="c-orange">&gt;&lt;div&gt; </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="code-box cord-box-scss">
+                      <div class="code-title l-flex l-align-center">
+                        <div class="code-title-title l-flex l-align-center">
+                          <i class="fa fa-cog"></i>
+                          <h5 class="code-title-text">SCSS</h5>
+                        </div>
+                        <i class="fa fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-content">
+                        <p>
+                          <span class="c-yellow">.rect </span>{<br />
+                          <span class="c-pink">background: </span>
+                          <span class="c-yellow">linear-gradient</span>(<br />
+                          <span class="c-orange">-119deg</span>,<br />
+                          <span class="c-yellow">$gray </span
+                          ><span class="c-orange">0%</span>,<br />
+                          <span class="c-yellow">$dark-gray </span
+                          ><span class="c-orange">100%</span>);|
+                        </p>
+                      </div>
+                    </div>
+                    <div class="code-box cord-box-js">
+                      <div class="code-title l-flex l-align-center">
+                        <div class="code-title-title l-flex l-align-center">
+                          <i class="fa fa-cog"></i>
+                          <h5 class="code-title-text">JS</h5>
+                        </div>
+                        <i class="fa fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-content">
+                        <p>
+                          <span class="c-yellow">var </span
+                          ><span class="c-blue">colors </span>=<br />
+                          ["<span class="c-green">#74B087"</span>,"<span
+                            class="c-green"
+                            >#DE7300"</span
+                          >,"<span class="c-green">#74B087"</span>];<br />
+                          <p></p>
+                          <span class="c-yellow">function </span
+                          ><span class="c-blue">animate</span>() {};
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
         <section class="l-section">
           <div class="l-flex l-flex-wrap features">
-             <!-- Write code for Features-->
+            <!-- Write code for Features-->
           </div>
         </section>
         <section class="l-section">
           <div class="product-item-list">
-             <!-- Write code for Product List-->
+            <!-- Write code for Product List-->
           </div>
         </section>
         <footer class="l-footer l-flex l-flex-wrap footer">
-             <!-- Write code for Footer List-->
+          <!-- Write code for Footer List-->
         </footer>
       </main>
     </div>

@@ -1,0 +1,138 @@
+html {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF; }
+
+a {
+  text-decoration: none; }
+
+.l-flex {
+  display: flex; }
+
+.l-align-center {
+  align-items: center; }
+
+.l-justify-center {
+  justify-content: center; }
+
+.l-space-between {
+  justify-content: space-between; }
+
+.l-flex-wrap {
+  flex-wrap: wrap; }
+
+.l-sidebar {
+  display: none; }
+
+.l-header {
+  display: flex;
+  align-items: center; }
+
+.button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+  display: inline-block; }
+
+.button-sign-up {
+  color: #000;
+  background-color: #47cf73; }
+
+.button-log-in {
+  background-color: #444857; }
+
+.hero {
+  margin: 32px; }
+  .hero .hero-content .description {
+    padding: 32px; }
+    .hero .hero-content .description .description-logo {
+      font-size: 36px; }
+    .hero .hero-content .description .description-title {
+      font-size: 3rem;
+      font-weight: 900;
+      margin: 0; }
+    .hero .hero-content .description .description-description {
+      font-size: 1.1rem; }
+    .hero .hero-content .description .description-button .button {
+      width: 200px;
+      font-size: 1.4rem; }
+  .hero .hero-content .demo .demo-content {
+    margin: 16px auto;
+    border-radius: 6px;
+    width: 495px;
+    height: 410px;
+    background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%); }
+    .hero .hero-content .demo .demo-content .code-box {
+      background-color: #1d1e22;
+      width: 300px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      height: 150px;
+      font-size: 16px;
+      padding: 4px 8px; }
+      .hero .hero-content .demo .demo-content .code-box .code-title {
+        padding-bottom: 4px;
+        justify-content: space-between; }
+        .hero .hero-content .demo .demo-content .code-box .code-title .fa:before {
+          color: #b7bbc8; }
+        .hero .hero-content .demo .demo-content .code-box .code-title .code-title-text {
+          margin: 0;
+          margin-left: 8px; }
+      .hero .hero-content .demo .demo-content .code-box .code-content {
+        font-size: 14px; }
+        .hero .hero-content .demo .demo-content .code-box .code-content p {
+          margin: 0; }
+    .hero .hero-content .demo .demo-content .cord-box-html {
+      position: relative;
+      bottom: 20px;
+      left: 180px; }
+    .hero .hero-content .demo .demo-content .cord-box-scss {
+      position: relative;
+      bottom: 20px;
+      left: 220px; }
+    .hero .hero-content .demo .demo-content .cord-box-js {
+      position: relative;
+      bottom: 20px;
+      left: 180px; }
+    .hero .hero-content .demo .demo-content .c-orange {
+      color: #a88038; }
+    .hero .hero-content .demo .demo-content .c-yellow {
+      color: #e1ca72; }
+    .hero .hero-content .demo .demo-content .c-green {
+      color: #74b087; }
+    .hero .hero-content .demo .demo-content .c-pink {
+      color: #9f8198; }
+    .hero .hero-content .demo .demo-content .c-blue {
+      color: #7a99ad; }
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%; }
+  .search-form .fa-search {
+    font-size: 22px; }
+  .search-form .search-form-input {
+    margin-left: 16px;
+    background-color: #252830;
+    box-shadow: none;
+    border: none;
+    font-size: 22px;
+    font-weight: bold; }
+
+.header-buttons {
+  padding: 8px; }
+  .header-buttons .button {
+    margin-right: 8px;
+    min-width: 100px; }
