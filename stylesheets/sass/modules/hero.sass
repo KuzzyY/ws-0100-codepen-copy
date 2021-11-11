@@ -1,23 +1,20 @@
 .hero
   margin: 32px
 
-.hero-content
-
-.description
+.hero-description
   padding: 32px
 
-.description-title
+.hero-description-title
   font-size: 3rem
   font-weight: 900
   margin: 0
 
-.description-description
+.hero-description-detail
   font-size: 1.1rem
 
-.description-button
-  .button
-    width: 200px
-    font-size: 1.4rem
+.hero-button
+  width: 200px
+  font-size: 1.4rem
 
 .demo-content
   margin: 16px auto
@@ -25,3 +22,11 @@
   width: 495px
   height: 410px
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%)
+
+@media screen and ( min-width: $screen-sm-min )
+  .hero-content
+    display: flex
+    flex-wrap: wrap
+
+  .hero-description, .demo
+    width: 50%

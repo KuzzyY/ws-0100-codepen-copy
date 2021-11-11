@@ -37,7 +37,12 @@ ul {
   flex-wrap: wrap; }
 
 .l-sidebar {
-  display: none; }
+  display: none;
+  min-width: 188px; }
+
+@media screen and (min-width: 576px) {
+  .l-sidebar {
+    display: inline-block; } }
 
 .l-header {
   display: flex;
@@ -51,6 +56,10 @@ ul {
 
 .l-margin-left-4rem {
   margin-left: 4rem !important; }
+
+.l-margin-0 {
+  margin: 0;
+  display: block; }
 
 .badge {
   background: #ffdd40;
@@ -76,35 +85,6 @@ ul {
 
 .button-secondary {
   background-color: #444857; }
-
-.card {
-  height: 340px; }
-
-.futures-card {
-  margin: 2rem 1rem; }
-
-.card-icon {
-  background: black;
-  position: relative;
-  left: 16px;
-  top: 32px;
-  height: 64px;
-  width: 64px;
-  border-radius: 6px;
-  text-align: center; }
-  .card-icon .fa {
-    font-size: 48px;
-    position: relative;
-    top: 8px; }
-
-.card {
-  padding: 2rem;
-  width: 360px;
-  border-radius: 6px;
-  background: #2c303a; }
-
-.card-description {
-  color: #b7bbc8; }
 
 .product-item-row {
   justify-content: center; }
@@ -165,7 +145,7 @@ ul {
   justify-content: center; }
 
 .button-outline {
-  border: 1px solid #aaaebc; }
+  border: 3px solid #aaaebc; }
 
 .code-box {
   background-color: #1d1e22;
@@ -175,9 +155,6 @@ ul {
   height: 150px;
   font-size: 16px;
   padding: 4px 8px; }
-  .code-box p {
-    margin: 0;
-    display: block; }
 
 .code-title {
   padding-bottom: 4px;
@@ -195,7 +172,7 @@ ul {
 .cord-box-html {
   position: relative;
   bottom: 20px;
-  left: 180px; }
+  left: 160px; }
 
 .cord-box-scss {
   position: relative;
@@ -205,7 +182,7 @@ ul {
 .cord-box-js {
   position: relative;
   bottom: 20px;
-  left: 180px; }
+  left: 160px; }
 
 .c-orange {
   color: #a88038; }
@@ -238,34 +215,66 @@ ul {
 .features {
   justify-content: center; }
 
+.card {
+  height: 340px; }
+
+.futures-card {
+  margin: 2rem 1rem; }
+
+.card-icon {
+  background: black;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 6px;
+  text-align: center; }
+  .card-icon .fa {
+    font-size: 48px;
+    position: relative;
+    top: 8px; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #2c303a; }
+
+.card-description {
+  color: #b7bbc8; }
+
+.card-footer {
+  margin: 16px 0; }
+
 .footer {
   justify-content: space-between;
   align-items: center;
   padding: 32px;
   background: black; }
 
-.footer-links h4 {
+.footer-links-title {
   margin: 2px;
   margin-right: 1rem; }
 
-.footer-links li {
+.footer-links-link {
   margin-right: 1rem; }
 
 .hero {
   margin: 32px; }
 
-.description {
+.hero-description {
   padding: 32px; }
 
-.description-title {
+.hero-description-title {
   font-size: 3rem;
   font-weight: 900;
   margin: 0; }
 
-.description-description {
+.hero-description-detail {
   font-size: 1.1rem; }
 
-.description-button .button {
+.hero-button {
   width: 200px;
   font-size: 1.4rem; }
 
@@ -276,13 +285,20 @@ ul {
   height: 410px;
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%); }
 
+@media screen and (min-width: 576px) {
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap; }
+  .hero-description, .demo {
+    width: 50%; } }
+
 .header-buttons {
   padding: 8px; }
   .header-buttons .button {
     margin-right: 8px;
     min-width: 100px; }
 
-.description-logo {
+.hero-logo {
   font-size: 36px; }
 
 .footer-logo {
@@ -296,7 +312,7 @@ ul {
   width: 100%; }
 
 .fa-search {
-  font-size: 20px; }
+  font-size: 20px !important; }
 
 .search-form-input {
   margin-left: 16px;
@@ -306,6 +322,43 @@ ul {
   font-size: 20px;
   font-weight: bold; }
 
+.sidebar {
+  background: #1F1F26; }
+
+.codepen-logo {
+  text-align: center; }
+
+.get-start-text {
+  margin: .2em;
+  font-size: .8em;
+  text-align: center;
+  color: #b7bbc8; }
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0; }
+
+.button-logo-text {
+  display: block;
+  background: black;
+  padding: 8px;
+  width: 100%; }
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px; }
+
+.sidebar-menu-title {
+  font-size: .8rem;
+  margin-bottom: .2rem;
+  margin-left: 16px; }
+
+.sidebar-menu-link {
+  display: block;
+  padding-left: 16px; }
+
 .text-accent {
   color: #0ebeff; }
 
@@ -314,3 +367,12 @@ ul {
 
 .text-weak {
   color: #b7bbc8; }
+
+.text-warning {
+  color: #ffdd40; }
+
+.text-primary {
+  color: #47cf73; }
+
+.text-accent {
+  color: #0ebeff; }

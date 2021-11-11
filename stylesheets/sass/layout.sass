@@ -15,9 +15,11 @@
 
 .l-sidebar
     display: none
+    min-width: 188px
 
-// include $screen-md-min
-//     display: inline-block
+@media screen and ( min-width: $screen-sm-min )
+    .l-sidebar
+        display: inline-block
 
 .l-header
     display: flex
@@ -31,3 +33,7 @@
 
 .l-margin-left-4rem
     margin-left: 4rem!important
+
+.l-margin-0
+  margin: 0
+  display: block
