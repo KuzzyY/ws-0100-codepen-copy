@@ -12,13 +12,18 @@
     width: 100%
 
 .product-message-body
-  color: #b7bbc8
+  color: $product-message-body-text
   margin-bottom: 16px
 
 .product-item-card
   border-radius: 4px
-  background: #2c303a
+  background: $product-item-card-bg
   transition: .2s
+
+.product-item-card:hover
+  transform: scale(1.05)
+  opacity: .4
+  cursor: pointer
 
 .product-item-card-image
   width: 350px
@@ -57,6 +62,3 @@
 .product-item-list-footer
   display: flex
   justify-content: center
-
-.button-outline
-  border: 3px solid #aaaebc

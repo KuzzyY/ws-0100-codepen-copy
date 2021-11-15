@@ -2,6 +2,28 @@
 // Colors:
 
 $background-color: #131417
+$black: #000
+$btn-primary: #47cf73
+$btn-secondary: #444857
+$btn-outline: #aaaebc
+$code-title-icon: #b7bbc8
+$code-box-bg: #1d1e22
+$c-orange: #a88038
+$c-yellow: #e1ca72
+$c-green: #74b087
+$c-pink: #9f8198
+$c-blue: #7a99ad
+$card-description-text: #b7bbc8
+$product-message-body-text: #b7bbc8
+$product-item-card-bg: #2c303a
+$search-form-bg: #252830
+$get-start-text: #b7bbc8
+$text-accent: #0ebeff
+$text-weak: #b7bbc8
+$text-warning: #ffdd40
+$text-primary: #47cf73
+
+
 // declare your variables for color
 
 
@@ -17,3 +39,8 @@ $screen-lg-min: 992px
 
 // Large tablets and desktops
 $screen-xl-min: 1200px
+
+@mixin pc
+  @media (min-width: ($screen-sm-min))
+    @content
+
